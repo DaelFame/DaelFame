@@ -1,18 +1,60 @@
-# 💫 About Me:
-Analytics & Data Engineer with a background in Accounting and Finance.<br><br>Building modern data platforms, ELT pipelines, dimensional models, and business intelligence solutions using Python, DuckDB, Polars, SQL, and Power BI.<br><br>Interested in analytics engineering, financial data systems, and transforming complex data into decision-ready insights.
+# Hi, I'm Joaquin 👋
 
+### Analytics Engineer | Finance & Accounting Data Systems
+*Based in Peru 🇵🇪 | Analytics Engineering for Finance & Accounting*
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/joaquincardenas-data/?locale=en-US) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:Joaquin.data.dev@gmail.com) 
+I build data pipelines and analytical systems for financial domains — turning raw accounting and finance data into structured, queryable infrastructure that supports real business decisions.
 
-# 💻 Tech Stack:
-![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white) ![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=Apache%20Airflow&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white) ![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=DaelFame&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://streak-stats.demolab.com/?user=DaelFame&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=DaelFame&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+My background in accounting and auditing (KPMG) gives me business context that complements my engineering work. **I understand what the numbers mean before I move them.**
 
 ---
-[![](https://komarev.com/ghpvc/?username=DaelFame&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## 🚀 Featured Project: [Peru Budget Lakehouse](https://github.com/DaelFame/peru-budget-lakehouse)
+
+An end-to-end analytics pipeline engineered to process large-scale financial datasets under strict local hardware constraints — no cloud required.
+
+### Technical Highlights
+| Dimension | Detail |
+| :--- | :--- |
+| **Data volume** | 47M+ records · 8.5GB source |
+| **Memory constraint** | Full pipeline runs on 4GB RAM via hash chunking |
+| **Query performance** | Sub-second OLAP queries via DuckDB |
+| **Architecture** | Bronze / Silver / Gold Medallion Lakehouse |
+| **Data modeling** | Kimball Star Schema |
+| **Orchestration** | Prefect pipelines with error handling |
+
+### Core Engineering Decisions
+* **DuckDB over PostgreSQL**: In-process columnar engine eliminates infrastructure overhead while delivering OLAP-grade performance locally.
+* **Polars over Pandas**: Selected for memory efficiency and lazy evaluation when processing multi-GB datasets under constrained hardware resources.
+* **Parquet + ZSTD**: Columnar storage reduces scan cost from 8.5GB to sub-GB effective reads.
+* **Hash-chunked ingestion**: Deterministic partitioning allows full processing within 4GB RAM.
+
+---
+
+## 💻 Tech Stack
+* **Engineering**: Python, Polars, DuckDB, SQL, Apache Parquet
+* **Pipeline & Infra**: Prefect, Docker, GitHub Actions, Linux
+* **Modeling & BI**: Kimball Dimensional Modeling, Star Schema, Streamlit, Matplotlib
+* **Domain Knowledge**: Financial Reporting, Financial Analysis, FP&A Analytics, Audit & Assurance
+
+![Python](https://img.shields.io/badge/python-3670A0?style=flat-square&logo=python&logoColor=white)
+![Polars](https://img.shields.io/badge/polars-150458?style=flat-square&logo=polars&logoColor=white)
+![DuckDB](https://img.shields.io/badge/duckdb-fff000?style=flat-square&logo=duckdb&logoColor=black)
+![SQL](https://img.shields.io/badge/sql-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Prefect](https://img.shields.io/badge/prefect-000000?style=flat-square&logo=prefect&logoColor=white)
+![Streamlit](https://img.shields.io/badge/streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![PowerBI](https://img.shields.io/badge/powerbi-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+
+---
+
+## 🔭 Currently Building
+* Incremental load patterns for append-only financial transaction data.
+* Data observability: pipeline run tracking and anomaly detection.
+* Evaluating cloud deployment patterns for analytical workloads (BigQuery).
+
+---
+
+## 🌐 Connect
+* **LinkedIn**: [linkedin.com/in/joaquincardenas-data](https://linkedin.com/in/joaquincardenas-data/)
+* **Email**: [Joaquin.data.dev@gmail.com](mailto:Joaquin.data.dev@gmail.com)
