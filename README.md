@@ -33,18 +33,19 @@ An end-to-end analytics pipeline engineered to process large-scale financial dat
 
 ## 💻 Tech Stack
 * **Engineering**: Python, Polars, DuckDB, SQL, Apache Parquet
-* **Pipeline & Infra**: Prefect, Docker, GitHub Actions, Linux
-* **Modeling & BI**: Kimball Dimensional Modeling, Star Schema, Streamlit, Matplotlib
-* **Domain Knowledge**: Financial Reporting, Financial Analysis, FP&A Analytics, Audit & Assurance
+* **Pipeline & Infrastructure**: Prefect, Docker, GitHub Actions
+* **Development Environment**: Linux (Fedora), Git, CLI-first workflows
+* **Modeling & BI**: Kimball Dimensional Modeling, Star Schema, Power BI, Streamlit, Matplotlib
+* **Domain Knowledge**: Financial Reporting, Financial Analysis, FP&A , Audit & Assurance
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=flat-square&logo=python&logoColor=white)
 ![Polars](https://img.shields.io/badge/polars-150458?style=flat-square&logo=polars&logoColor=white)
 ![DuckDB](https://img.shields.io/badge/duckdb-fff000?style=flat-square&logo=duckdb&logoColor=black)
-![SQL](https://img.shields.io/badge/sql-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![Linux](https://img.shields.io/badge/linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Docker](https://img.shields.io/badge/docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Prefect](https://img.shields.io/badge/prefect-000000?style=flat-square&logo=prefect&logoColor=white)
+![Git](https://img.shields.io/badge/git-F05032?style=flat-square&logo=git&logoColor=white)
+![SQL](https://img.shields.io/badge/sql-4479A1?style=flat-square&logo=postgresql&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![PowerBI](https://img.shields.io/badge/powerbi-F2C811?style=flat-square&logo=powerbi&logoColor=black)
 
 ---
 
