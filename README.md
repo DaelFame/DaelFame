@@ -1,61 +1,49 @@
-# Hi, I'm Joaquin 👋
+# Joaquin Cardenas
 
-### Analytics Engineer | Finance & Accounting Data Systems
-*Based in Peru 🇵🇪 | Analytics Engineering for Finance & Accounting*
+**FP&A · Business Intelligence Analyst** — I turn financial and market data into decisions.
 
-I build data pipelines and analytical systems for financial domains — turning raw accounting and finance data into structured, queryable infrastructure that supports real business decisions.
-
-My background in accounting and auditing (KPMG) gives me business context that complements my engineering work. **I understand what the numbers mean before I move them.**
+Arequipa, Peru (UTC-5) · [LinkedIn](https://linkedin.com/in/joaquin-cardenas-956a0a218) · [Portfolio](https://joacoportfolioanalis.netlify.app/) · [Email](mailto:Joaquin.data.dev@gmail.com)
 
 ---
 
-## 🚀 Featured Project: [Peru Budget Lakehouse](https://github.com/DaelFame/peru-budget-lakehouse)
+## What I do
 
-An end-to-end analytics pipeline engineered to process large-scale financial datasets under strict local hardware constraints — no cloud required.
+I come from accounting and audit, not from a data bootcamp. I have reconciled accounts under IFRS inside audit engagements at **KPMG**, and I have owned a full **P&L** in hospitality. Today I build the analytical layer that answers the question that actually gets asked in a boardroom: *where is the money going, and what should we do about it?*
 
-### Technical Highlights
-| Dimension | Detail |
-| :--- | :--- |
-| **Data volume** | 47M+ records · 8.5GB source |
-| **Memory constraint** | Full pipeline runs on 4GB RAM via hash chunking |
-| **Query performance** | Sub-second OLAP queries via DuckDB |
-| **Architecture** | Bronze / Silver / Gold Medallion Lakehouse |
-| **Data modeling** | Kimball Star Schema |
-| **Orchestration** | Prefect pipelines with error handling |
+Three things I'm good at:
 
-### Core Engineering Decisions
-* **DuckDB over PostgreSQL**: In-process columnar engine eliminates infrastructure overhead while delivering OLAP-grade performance locally.
-* **Polars over Pandas**: Selected for memory efficiency and lazy evaluation when processing multi-GB datasets under constrained hardware resources.
-* **Parquet + ZSTD**: Columnar storage reduces scan cost from 8.5GB to sub-GB effective reads.
-* **Hash-chunked ingestion**: Deterministic partitioning allows full processing within 4GB RAM.
+- **Translating finance into models.** Chart of accounts → star schema → measures that reconcile with the ledger.
+- **Finding the decision inside the data.** Not the dashboard — the conclusion, and what it costs if you ignore it.
+- **Shipping it end to end.** Raw files → validated pipeline → a report someone actually opens on Monday.
 
----
+## Projects
 
-## 💻 Tech Stack
-* **Engineering**: Python, Polars, DuckDB, SQL, Apache Parquet
-* **Pipeline & Infrastructure**: Prefect, Docker, GitHub Actions
-* **Development Environment**: Linux (Fedora), Git, CLI-first workflows
-* **Modeling & BI**: Kimball Dimensional Modeling, Star Schema, Power BI, Streamlit, Matplotlib
-* **Domain Knowledge**: Financial Reporting, Financial Analysis, FP&A , Audit & Assurance
+| # | Project | The question it answers | Stack |
+|---|---|---|---|
+| **01** | **[UCSP Market Intelligence](https://github.com/DaelFame/ucsp-market-intelligence)**<br>Two-page BI decision deck | *Where should a private university grow next?* Found a **−1.6 pp** market-share leak hidden behind volume growth, proved that **modality — not brand — drives growth** (correlation **0.94**), and sized a **608,758-student** expansion market that needs **no new campus**. | Power BI · DAX (46 measures) · Python · Kimball |
+| **02** | **[Peru Budget Lakehouse](https://github.com/DaelFame/peru-budget-lakehouse)**<br>End-to-end public budget platform | *Where does public spending deviate?* 47M+ records and 108 automated quality tests, running a full Medallion pipeline on 4GB of RAM with sub-second OLAP queries. | Python · Polars · DuckDB · dbt · Prefect · Streamlit |
+| **03** | *in progress* | — | — |
+| **04** | *in progress* | — | — |
 
-![Python](https://img.shields.io/badge/python-3670A0?style=flat-square&logo=python&logoColor=white)
-![Polars](https://img.shields.io/badge/polars-150458?style=flat-square&logo=polars&logoColor=white)
-![DuckDB](https://img.shields.io/badge/duckdb-fff000?style=flat-square&logo=duckdb&logoColor=black)
-![Linux](https://img.shields.io/badge/linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Docker](https://img.shields.io/badge/docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/git-F05032?style=flat-square&logo=git&logoColor=white)
-![SQL](https://img.shields.io/badge/sql-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![Streamlit](https://img.shields.io/badge/streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+Each repository carries the full business case, the semantic model and the decisions behind it — not just screenshots.
 
----
+## Toolkit
 
-## 🔭 Currently Building
-* Incremental load patterns for append-only financial transaction data.
-* Data observability: pipeline run tracking and anomaly detection.
-* Evaluating cloud deployment patterns for analytical workloads (BigQuery).
+| | |
+|---|---|
+| **Finance & Accounting** | FP&A · Budgeting · Variance analysis · Financial reporting · Reconciliations · AP/AR · Month-end close · IFRS |
+| **Business Intelligence** | Power BI (advanced DAX, semantic modeling) · Kimball star schema · HTML/CSS injected via DAX · Streamlit |
+| **Data Engineering** | SQL (window functions) · Python (Polars, pandas) · dbt · DuckDB · Parquet · Prefect · Docker |
+| **Languages** | Spanish (native) · English (professional, B2) |
 
----
+## Recognition & Education
 
-## 🌐 Connect
-* **LinkedIn**: [linkedin.com/in/joaquincardenas-data](https://linkedin.com/in/joaquincardenas-data/)
-* **Email**: [Joaquin.data.dev@gmail.com](mailto:Joaquin.data.dev@gmail.com)
+- **1st place — KPMG Audit Foundations 1** (international cohort, 2026)
+- BSc in Accounting, Universidad Católica San Pablo — expected 2027
+- Power BI Professional, TECSUP — 2022
+
+## Contact
+
+Open to remote FP&A, BI and data analyst roles.
+
+[LinkedIn](https://linkedin.com/in/joaquin-cardenas-956a0a218) · [Portfolio](https://joacoportfolioanalis.netlify.app/) · [Joaquin.data.dev@gmail.com](mailto:Joaquin.data.dev@gmail.com)
