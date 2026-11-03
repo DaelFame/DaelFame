@@ -21,7 +21,7 @@ Three things I'm good at:
 | # | Project | The question it answers | Stack |
 |---|---|---|---|
 | **01** | **[UCSP Market Intelligence](https://github.com/DaelFame/ucsp-market-intelligence)**<br>Two-page BI decision deck | *Where should a private university grow next?* Found a **−1.6 pp** market-share leak hidden behind volume growth, proved that **modality — not brand — drives growth** (correlation **0.94**), and sized a **608,758-student** expansion market that needs **no new campus**. | Power BI · DAX (46 measures) · Python · Kimball |
-| **02** | **[Peru Budget Lakehouse](https://github.com/DaelFame/peru-budget-lakehouse)**<br>End-to-end public budget platform | *Where does public spending deviate?* 47M+ records and 108 automated quality tests, running a full Medallion pipeline on 4GB of RAM with sub-second OLAP queries. | Python · Polars · DuckDB · dbt · Prefect · Streamlit |
+| **02** | **[Peru Budget Lakehouse](https://github.com/DaelFame/peru-budget-lakehouse)**<br>End-to-end public budget platform | *Where does public spending deviate?* 8M source records unpivoted into a **29.5M-row** fact table, with **108 automated quality tests** and sub-second OLAP queries on a single machine. | Python · Polars · DuckDB · Prefect · Streamlit |
 | **03** | *in progress* | — | — |
 | **04** | *in progress* | — | — |
 
@@ -33,7 +33,7 @@ Each repository carries the full business case, the semantic model and the decis
 |---|---|
 | **Finance & Accounting** | FP&A · Budgeting · Variance analysis · Financial reporting · Reconciliations · AP/AR · Month-end close · IFRS |
 | **Business Intelligence** | Power BI (advanced DAX, semantic modeling) · Kimball star schema · HTML/CSS injected via DAX · Streamlit |
-| **Data Engineering** | SQL (window functions) · Python (Polars, pandas) · dbt · DuckDB · Parquet · Prefect · Docker |
+| **Data Engineering** | SQL (window functions) · Python (Polars, pandas) · DuckDB · Parquet · Prefect · Docker |
 | **Languages** | Spanish (native) · English (professional, B2) |
 
 ## Recognition & Education
