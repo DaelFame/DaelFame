@@ -2,7 +2,7 @@
 
 **FP&A · Business Intelligence Analyst** — I turn financial and market data into decisions.
 
-Arequipa, Peru (UTC-5) · [LinkedIn](https://linkedin.com/in/joaquin-cardenas-956a0a218) · [Portfolio](https://joacoportfolioanalis.netlify.app/) · [Email](mailto:Joaquin.data.dev@gmail.com)
+Arequipa, Peru (UTC-5) · [LinkedIn](https://www.linkedin.com/in/joaquincardenas-data) · [Portfolio](https://joacoportfolioanalis.netlify.app/) · [Email](mailto:Joaquin.data.dev@gmail.com)
 
 ---
 
@@ -46,4 +46,4 @@ Each repository carries the full business case, the semantic model and the decis
 
 Open to remote FP&A, BI and data analyst roles.
 
-[LinkedIn](https://linkedin.com/in/joaquin-cardenas-956a0a218) · [Portfolio](https://joacoportfolioanalis.netlify.app/) · [Joaquin.data.dev@gmail.com](mailto:Joaquin.data.dev@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/joaquincardenas-data) · [Portfolio](https://joacoportfolioanalis.netlify.app/) · [Joaquin.data.dev@gmail.com](mailto:Joaquin.data.dev@gmail.com)
