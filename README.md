@@ -1,8 +1,8 @@
 # Joaquin Cardenas
 
-**FP&A · Business Intelligence Analyst** — I turn financial and market data into decisions.
+**Financial Data Analyst** — I turn financial and market data into decisions.
 
-Arequipa, Peru (UTC-5) · [LinkedIn](https://www.linkedin.com/in/joaquincardenas-data) · [Portfolio](https://joacoportfolioanalis.netlify.app/) · [Email](mailto:Joaquin.data.dev@gmail.com)
+Arequipa, Peru (UTC-5) · [LinkedIn](https://www.linkedin.com/in/joaquincardenas-data) · [Portfolio](https://daelfame.github.io) · [Email](mailto:Joaquin.data.dev@gmail.com)
 
 ---
 
@@ -20,12 +20,11 @@ Three things I'm good at:
 
 | # | Project | The question it answers | Stack |
 |---|---|---|---|
-| **01** | **[UCSP Market Intelligence](https://github.com/DaelFame/ucsp-market-intelligence)**<br>Two-page BI decision deck | *Where should a private university grow next?* Found a **−1.6 pp** market-share leak hidden behind volume growth, proved that **modality — not brand — drives growth** (correlation **0.94**), and sized a **608,758-student** expansion market that needs **no new campus**. | Power BI · DAX (46 measures) · Python · Kimball |
+| **01** | **[FP&A Forecasting & Variance Analysis](https://github.com/DaelFame/fpa-forecasting-case-study)**<br>Anonymised business simulation · five-page Power BI report | *Revenue landed within 0.9% of budget while net income missed by 61%. Which drivers moved the result?* Traced the miss to operating expenses, showed that **+€572K of the +€867,945 surplus is extraordinary income**, and flagged **€150K of unsupported expenses** instead of smoothing them away. | Python · pytest · Power BI · DAX (94 measures) |
 | **02** | **[Peru Budget Lakehouse](https://github.com/DaelFame/peru-budget-lakehouse)**<br>End-to-end public budget platform | *Where does public spending deviate?* 8M source records unpivoted into a **29.5M-row** fact table, with **131 automated tests** and sub-second OLAP queries on a single machine. | Python · Polars · DuckDB · Prefect · Streamlit |
-| **03** | *in progress* | — | — |
-| **04** | *in progress* | — | — |
+| **03** | **[University Market Intelligence — Arequipa](https://github.com/DaelFame/ucsp-market-intelligence)**<br>Two-page BI decision deck | *Where should a private university grow next?* Found a **−1.7 pp** market-share leak hidden behind volume growth, showed that **modality — not brand — is associated with growth** (correlation **0.94**, n = 5), and sized a **608,758-student** expansion market that needs **no new campus**. | Power BI · DAX (46 measures) · Python · Kimball |
 
-Each repository carries the full business case, the semantic model and the decisions behind it — not just screenshots.
+Each repository carries the full business case, the semantic model and the decisions behind it — not just screenshots. The written case for each one lives at [daelfame.github.io](https://daelfame.github.io/work/).
 
 ## Toolkit
 
@@ -34,7 +33,7 @@ Each repository carries the full business case, the semantic model and the decis
 | **Finance & Accounting** | FP&A · Budgeting · Variance analysis · Financial reporting · Reconciliations · AP/AR · Month-end close · IFRS |
 | **Business Intelligence** | Power BI (advanced DAX, semantic modeling) · Kimball star schema · HTML/CSS injected via DAX · Streamlit |
 | **Data Engineering** | SQL (window functions) · Python (Polars, pandas) · DuckDB · Parquet · Prefect · Docker |
-| **Languages** | Spanish (native) · English (professional, B2) |
+| **Languages** | Spanish (native) · English (B2, two seasons working in the US) |
 
 ## Recognition & Education
 
@@ -44,6 +43,6 @@ Each repository carries the full business case, the semantic model and the decis
 
 ## Contact
 
-Open to remote FP&A, BI and data analyst roles.
+Available as an independent contractor. UTC−5 year-round (New York time in winter, Chicago time in summer).
 
-[LinkedIn](https://www.linkedin.com/in/joaquincardenas-data) · [Portfolio](https://joacoportfolioanalis.netlify.app/) · [Joaquin.data.dev@gmail.com](mailto:Joaquin.data.dev@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/joaquincardenas-data) · [Portfolio](https://daelfame.github.io) · [Joaquin.data.dev@gmail.com](mailto:Joaquin.data.dev@gmail.com)
